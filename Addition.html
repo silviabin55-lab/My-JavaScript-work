@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Addition</title>
+</head>
+<body>
+
+<h1>Adding 3 Numbers</h1>
+<p>Compute the sum of 3 numbers</p>
+<p id="demo"></p>
+
+<script>
+// Function to add 3 numbers
+function addNumbers(num1, num2, num3) {
+  return num1 + num2 + num3;
+}
+
+// Call the function with 3 values
+let result = addNumbers(5, 10, 15);
+
+// Show the result inside the paragraph
+document.getElementById("demo").innerHTML = "The result is: " + result;
+</script>
+</html>
+</body>
