@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+<body>
+    <h1>Odd or Even Checker</h1>
+<p id="demo"></p>
+
+<script>
+// Function to check if a number is odd or even
+function checkNumber(num) {
+  if (num % 2 === 0) {
+    return num + " is Even";
+  } else {
+    return num + " is Odd";
+  }
+}
+
+// Call the function with a number
+let result = checkNumber(7);
+
+// Show the result inside the paragraph
+document.getElementById("demo").innerHTML = result;
+</script>
+</body>
+</html>
